@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kiosk/welcome.dart';
+import 'package:kiosk/Screens/welcome.dart';
 
 void main() {
   runApp(KioskApp());

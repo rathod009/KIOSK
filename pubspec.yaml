@@ -1,5 +1,5 @@
 name: kiosk
-description: "A new Flutter project."
+description: "ITC Kiosk App."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,6 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
   cupertino_icons: ^1.0.8
   qr_flutter: ^4.1.0
 
@@ -58,10 +60,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/logo/itc_logo.png
+    - assets/images/bg0.jpg
     - assets/images/bg1.jpg
     - assets/images/bg2.jpg
     - assets/images/bg3.jpg
-    - assets/images/bg4.jpg
+    
     
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

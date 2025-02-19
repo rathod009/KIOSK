@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'infoscreen.dart';
+import 'info.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -10,7 +10,7 @@ class WelcomeScreen extends StatelessWidget {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/bg4.jpg'),
+            image: AssetImage('assets/images/bg0.jpg'),
             fit: BoxFit.cover,
           ),
         ),
@@ -62,7 +62,7 @@ class WelcomeScreen extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.all(16.0),
                   decoration: BoxDecoration(
-                    color: Colors.transparent,
+                    color: Colors.white.withAlpha(100), // Use withAlpha (255 * 0.7 ≈ 178.5, so 180 is a close approximation)
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: const Column(
