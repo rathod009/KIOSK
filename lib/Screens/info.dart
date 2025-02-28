@@ -14,6 +14,8 @@ class InfoScreen extends StatelessWidget {
     GridItem('Entrance Quiz', 'Attempt Quiz', 'https://www.example.com/form6', Icons.quiz),
   ];
 
+  InfoScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
