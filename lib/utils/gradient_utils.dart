@@ -8,12 +8,12 @@ LinearGradient getGradient(int index) {
       end: Alignment.bottomCenter, // End at bottom-right
       );
     case 1:
-      return LinearGradient(colors: [Colors.pinkAccent, Colors.white],
+      return LinearGradient(colors: [Colors.amberAccent, Colors.white],
       begin: Alignment.topCenter, // Start at top-left
       end: Alignment.bottomCenter, // End at bottom-right
       );
     case 2:
-      return LinearGradient(colors: [Colors.purpleAccent, Colors.white],
+      return LinearGradient(colors: [Colors.pinkAccent, Colors.white],
       begin: Alignment.topCenter, // Start at top-left
       end: Alignment.bottomCenter, // End at bottom-right
       );
@@ -23,7 +23,7 @@ LinearGradient getGradient(int index) {
       end: Alignment.bottomCenter, // End at bottom-right
       );
     case 4:
-      return LinearGradient(colors: [Colors.amberAccent, Colors.white],
+      return LinearGradient(colors: [Colors.purpleAccent, Colors.white],
       begin: Alignment.topCenter, // Start at top-left
       end: Alignment.bottomCenter, // End at bottom-right
       );

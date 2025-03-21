@@ -9,9 +9,9 @@ class InfoScreen extends StatelessWidget {
     GridItem('Feedback Form', 'Share your feedback', 'https://qr.page/g/2AlYpvwB2HY', Icons.feedback),
     GridItem('Request Form', 'Submit a request', 'https://qr.page/g/46Hcyx75D9n', Icons.assignment),
     GridItem('Alumni Form', 'Alumni information', 'https://www.itcentre.org/alumni/index.php?p=registration', Icons.school),
-    GridItem('Placement Form', 'Placement assistance', 'https://www.example.com/form5', Icons.work),
-    GridItem('Certificate Request', 'Submit a request', 'https://www.example.com/form6', Icons.card_membership),
-    GridItem('Entrance Quiz', 'Attempt Quiz', 'https://www.example.com/form6', Icons.quiz),
+    // GridItem('Placement Form', 'Placement assistance', 'https://www.example.com/form5', Icons.work),
+    // GridItem('Certificate Request', 'Submit a request', 'https://www.example.com/form6', Icons.card_membership),
+    // GridItem('Entrance Quiz', 'Attempt Quiz', 'https://www.example.com/form6', Icons.quiz),
   ];
 
   InfoScreen({super.key});

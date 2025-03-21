@@ -1,0 +1,2 @@
+C:/Work/Projects/ITC Apps/kiosk/android/app/.cxx/RelWithDebInfo/394o1h14/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Work/Projects/ITC Apps/kiosk/android/app/.cxx/RelWithDebInfo/394o1h14/armeabi-v7a/CMakeFiles/rebuild_cache.dir
